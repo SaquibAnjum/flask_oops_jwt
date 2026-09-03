@@ -1,7 +1,7 @@
 [project]
 name = "flask-jwt-oops"
 version = "0.1.0"
-description = "Add your description here"
+description = "Flask JWT OOPS application"
 readme = "README.md"
 authors = [
     { name = "SaquibAnjum", email = "saquib1312@gmail.com" }
@@ -13,9 +13,6 @@ dependencies = [
     "requests>=2.34.2",
 ]
 
-[project.scripts]
-flask-jwt-oops = "flask_jwt_oops:main"
+[tool.uv]
+package = false
 
-[build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
-build-backend = "uv_build"

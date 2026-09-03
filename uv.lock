@@ -194,7 +194,7 @@ wheels = [
 [[package]]
 name = "flask-jwt-oops"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "flask" },
     { name = "flask-jwt-extended" },
