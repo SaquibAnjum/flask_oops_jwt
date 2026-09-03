@@ -11,7 +11,7 @@ app.config['JWT_SECRET_KEY'] = "sjekci348dfktocfmekxcjemtkxmejfj5k3o"
 app.register_blueprint(auth_blueprint)
 app.register_blueprint(task_bp)
 
-app.get("/")
+@app.get("/")
 def home():
     return "Welcome to the Flask API!"
 
